@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="ÁREA DO USUÁRIO">
+        <menu>
+            <group android:id="@+id/ususario"
+                android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/user"
+                android:title="Perfil" />
+
+                <item
+                    android:id="@+id/nav_sold"
+                    android:icon="@drawable/buyout"
+                    android:title="Produtos Vendidos" />
+
+
+                <item
+                    android:id="@+id/nav_bought"
+                    android:icon="@drawable/bought"
+                    android:title="Produtos Comprados" />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="ÁREA DO VENDEDOR">
+        <menu>
+
+            <group android:id="@+id/vendedor"
+                android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_vender"
+            android:icon="@drawable/sell"
+            android:title="Vender" />
+        <item
+            android:id="@+id/nav_estoque"
+            android:icon="@drawable/trolley"
+            android:title="Meu Estoque" />
+
+        <item
+            android:id="@+id/nav"
+            android:icon="@drawable/chat"
+            android:title="Querem Comprar" />
+
+    </group>
+
+        </menu>
+    </item>
+
+    <item android:title="ÁREA DO COMPRADOR">
+        <menu>
+            <group android:id="@+id/comprador" android:checkableBehavior="single" android:title="Área do Vendedor">
+                <item
+                    android:id="@+id/nav_comprar"
+                    android:icon="@drawable/buy"
+                    android:title="Comprar" />
+                <item
+                    android:id="@+id/nav_pedidos"
+                    android:icon="@drawable/ask"
+                    android:title="Pedidos que Fiz" />
+    </group>
+
+        </menu>
+    </item>
+
+
+</menu>

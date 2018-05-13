@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">OLX</string>
+    <string name="hint"><font size="10">Lembre-se de manter as notícias civilizadas! Posts abusivos contendo
+    racismo, homofobia, intolerância ou ataques pessoais não são permitidos.</font></string>
+    <string name="title_activity_main2">OLX</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="items">
+        <item>AC - Acre</item>
+        <item>AL - Alagoas</item>
+        <item>AM - Amapá</item>
+        <item>AP - Amazonas</item>
+        <item>BA - Bahia</item>
+        <item>CE - Ceará</item>
+        <item>DF - Distrito Federal</item>
+        <item>ES - Espírito Santo</item>
+        <item>GO - Goiás</item>
+        <item>MA - Maranhão</item>
+        <item>MG - Minas Gerais</item>
+        <item>MS - Mato Grosso do Sul</item>
+        <item>MT - Mato Grosso</item>
+        <item>PA - Pará</item>
+        <item>PB - Paraíba</item>
+        <item>PE - Pernambuco</item>
+        <item>PI - Piauí</item>
+        <item>PR - Paraná</item>
+        <item>RJ - Rio de Janeiro</item>
+        <item>RN - Rio Grande do Norte</item>
+        <item>RO - Rondônia</item>
+        <item>RR - Roraima</item>
+        <item>RS - Rio Grande do Sul</item>
+        <item>SC - Santa Catarina</item>
+        <item>SE - Sergipe</item>
+        <item>SP - São Paulo</item>
+        <item>TO - Tocantins</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+</resources>
